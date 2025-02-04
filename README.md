@@ -9,7 +9,7 @@ $O_{lequ}^{(3)}$
 
 **Reasons:**
 
-- Tensor operators are kwnon to cause problems with $\gamma_5$ in NDR [refs to be added]. While the issue can be solved by using the BHMV scheme, there is no reason a priori to prefer the scalar operator over the tensor. The scalar operator also give simpler Dirac traces, also for BHMV, when performing calculations with this operator.
+- Tensor operators are kwnon to cause problems with $\gamma_5$ in NDR. While the issue can be solved by using the BHMV scheme, there is no reason a priori to prefer the scalar operator over the tensor. The scalar operator also give simpler Dirac traces, also for BHMV, when performing calculations with this operator.
 
 - The only Standard Model (SM) extension where this operator is generated at tree-level involves rank-2 antysimmetric Lorentz tensor for which, to the best of my knowledge, a renormalizable Lagrangian is not known. Instead, the operator $O_{luqe}$ is generated at tree-level by the scalar extensions $(\boldsymbol{3},\boldsymbol{2},7/6)$. Instead of $O_{\ell uqe}$, one could also use $O_{\ell q^ce^cu}=(\bar\ell \epsilon q^{c})(\bar e^c u)$, which is generated at tree level by the $S_1$ leptoquark. However, the use of $O_{luqe}$ is preferred due to the absence of charge conjugation in the operator. When Fierzing either $O_{luqe}$ or $O_{\ell q^ce^cu}$ into $O_{lequ}^{(3)}$ one has to introduce an evanescent shifts which are ambigous in NDR [[2211.09144]](https://arxiv.org/abs/2211.09144). The ambiguity is further translated to matrix element computations with this operator. 
 
@@ -40,13 +40,13 @@ Operators containing field-strenght tensors
 - It makes the perturbative couting more transparent. This becomes especially relevant in Monte Carlo tools and in evolution-matrix calculations for Renormalization Group running.
 
 
-Operators with octet (or triplet) currents
+Operators with triplet (or octet) currents
 ==========================================
 
-**Proposed change:** Remove the generator products in favor of cross-term singlet contractions. E.g. instead of $O_{qq}^{(3)}$ write $O_{qq}^\prime=(\bar q^\alpha \gamma_\mu q^\beta) (\bar q^\beta \gamma^\mu q^\alpha)$ and analogusly for the rest.
+**Proposed change:** Remove the generator products in favor of cross-term singlet contractions. E.g. instead of $O_{qq}^{(3)}$ write $O_{qq}^\prime=(\bar q^i \gamma_\mu q^j) (\bar q^j \gamma^\mu q^i)$ and analogusly for the rest.
 
 **Reasons:**
 
-- It makes color algebra simpler.
+- It makes SU(2) and color algebra simpler.
 
 - There is no phenomenological reason for prefering one form over the other.
