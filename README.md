@@ -1,6 +1,8 @@
 # Proposal for a new SMEFT basis
 
-The goal of this proposal is to establish an altenative to the Warsaw basis for the Standard Model Effective Theory (SMEFT), where some of the operators are replaced by others. The proposed changes are the following:
+The goal of this proposal is to establish an altenative to the Warsaw basis for the Standard Model Effective Theory (SMEFT), where some of the operators are replaced by others. 
+The changes have been discussed at the [LHC EFT WG meeting:A new SMEFT basis?](https://indico.cern.ch/event/1601781/) 20 October 2025.
+The proposed changes are the following:
 
 $O_{lequ}^{(3)}$
 ================
@@ -51,3 +53,4 @@ Operators with triplet (or octet) currents
 - It makes SU(2) and color algebra simpler.
 
 - There is no phenomenological reason for prefering one form over the other.
+
